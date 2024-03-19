@@ -4,9 +4,13 @@
 import (
     "fmt"
     "reflect"
+    "strconv" 
 )
 
-reflect.TypeOf() returns the data type of string, integer, boolean etc.
+- fmt - Used for formating
+- reflect.TypeOf(<variable>) returns the data type of string, integer, boolean etc.
+- strconv - For String type casting
+strconv.Itoa(<variable>) - for integer to string conversion.
 
 - Go is a statically/strictly typed language that also often feels dynamically typed sometimes.
 
@@ -107,3 +111,11 @@ count: 1
 error: expected integer
 stringValue: Zohaib
 integerValue: 0
+
+
+# Type Casting:
+simply assign a variable enclosed in parenthesis. 
+e.g 
+int(floatVariable) - Converting float to variable.
+float64(int) - Converting integer into float.
+
