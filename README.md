@@ -71,5 +71,10 @@ func main(){
 - %q - quoted characters/string
 - %f - floating numbers
 - %.2f - floating numbers up to 2 decimal places
+- %t - boolean values - true or false
 etc..
 
+
+# fmt.Scanf - read input from the user
+- fmt.Scanf("%s %t", &name, &IsStudent)
+Here "&" sign is mandatory. 
