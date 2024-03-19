@@ -10,7 +10,8 @@ import "fmt"
 func main()  {
 	name:= "Lisa"  // This is dynamically typing
 	var greeting string = "Hello" // This is statically typing
-	fmt.Println(greeting)
+
+	fmt.Println(greeting) 	// OR fmt.Print(greeting, "\n")
 	fmt.Println(name)
 
 	
