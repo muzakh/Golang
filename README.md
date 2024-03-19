@@ -60,6 +60,6 @@ func main(){
 - %s - plain string
 - %q - quoted characters/string
 - %f - floating numbers
-- $2f - floating numbers up to 2 decimal places
+- %.2f - floating numbers up to 2 decimal places
 etc..
 
