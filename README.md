@@ -7,3 +7,12 @@ func main() {
 
 }
 
+# declaring a variable:
+var <variableName> <dataType> = value
+e.g:
+var name string = "zohaib"
+var i int = 100
+var b bool = false
+var f float64 = 77.90
+
+
