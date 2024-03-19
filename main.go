@@ -4,10 +4,14 @@
 
 package main
 
-import "fmt"
+import "fmt" 
+// OR import ("fmt")
 
 func main()  {
+	name:= "Lisa"
 	fmt.Println("Hello World!")
+	fmt.Println(name)
+
 	
 }
 
