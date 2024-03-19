@@ -78,3 +78,23 @@ etc..
 # fmt.Scanf - read input from the user
 - fmt.Scanf("%s %t", &name, &IsStudent)
 Here "&" sign is mandatory. 
+
+- fmt.Scanf returns two values "count" and "err":
+- count - number of values that fmt.Scanf function writes on. In case of incorrect data-typed values it returns an error and doesn't performs the increment to the count value. 
+- err - this is to log the error whenever wrong datatype values is provided for a user input and in that case a "Zero Value" is then assigned to that variable depending upon its type.
+
+var stringValue string  
+var integerValue int 
+
+count, err := fmt.Scanf("%s %d", &stringValue, &integerValue)
+
+fmt.Println("count: ", count)
+fmt.Println("error: ", err)
+fmt.Println("stringValue: ", stringValue)
+fmt.Println("integerValue: ", integerValue)
+
+###Output:
+count: 1
+error: expected integer
+stringValue: Zohaib
+integerValue: 0
