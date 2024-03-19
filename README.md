@@ -120,3 +120,23 @@ e.g
 int(floatVariable) - Converting float to variable.
 float64(int) - Converting integer into float.
 
+
+# Constants:
+- These are constant variables whose values never change. Reassignment is not possible
+- No concept of "Zero values" or "Default values" in case of Constants.
+- declared with a keyword as const <constantVariableName> = value
+- Short Variable assignment := is not supported in Constants.
+- For instance, assigning a constant value to Pii = 3.142, etc.
+
+### Types of Constants:
+- Typed: When we specify the data type specifically in Constant declaration for e.g, Const VarName <DataType> = value
+- Untyped: When we dont specify the Data Type in declaration. Data Type in Constants in optional. They are flexible as compared to typed Constants.
+
+- Constants variables give error if declared as follows:
+### Wrong:
+It only works in case of Variables declared by **var** keyword
+Const variableName String
+variableName = "Zohaib"
+### Correct way:
+Const variableName String = "Zohaib"
+
