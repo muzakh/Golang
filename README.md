@@ -30,6 +30,13 @@ var f float64 = 77.90
       f float64 = 77.99
   )
 
+# Short Variable Declaration:
+Here we use := a.k.a short variable assignment operator
+e.g 
+name:= "Lisa"
+name = "Peter"
+fmt.Println(name)
+
 # format specifiers -- Use fmt.Printf
 - %v - formats value in a default format
 - %d - formats decimal integers
