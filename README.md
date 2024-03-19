@@ -30,6 +30,16 @@ var f float64 = 77.90
       f float64 = 77.99
   )
 
+# Zero values:
+Happens when none of the value is assigned to a variable in declartion. It picks 0, false, null or nil depending upon the data type as follows:
+
+int or %d = 0
+float or %f = 0.0
+%.2f = 0.00
+string or %s = ""
+bool = false
+pointers, functions, interfaces, maps = nil
+
 # Short Variable Declaration:
 Here we use := a.k.a short variable assignment operator
 e.g 
