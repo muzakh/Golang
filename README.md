@@ -1,5 +1,13 @@
 # Golang
 
+# reflect.TypeOf 
+import (
+    "fmt"
+    "reflect"
+)
+
+reflect.TypeOf() returns the data type of string, integer, boolean etc.
+
 - Go is a statically/strictly typed language that also often feels dynamically typed sometimes.
 
 - Package main is for executable. Package main must contain declaration of a main func 
@@ -72,6 +80,7 @@ func main(){
 - %f - floating numbers
 - %.2f - floating numbers up to 2 decimal places
 - %t - boolean values - true or false
+- %T - retuns DataType of a variable. Can also use reflect.TypeOf(<variable>)
 etc..
 
 
