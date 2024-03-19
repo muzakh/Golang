@@ -10,7 +10,8 @@ import (
 - fmt - Used for formating
 - reflect.TypeOf(<variable>) returns the data type of string, integer, boolean etc.
 - strconv - For String type casting
-strconv.Itoa(<variable>) - for integer to string conversion.
+strconv.Itoa(<variable>) - for integer to string conversion. It returns only one value i.e converted string.
+strconv.Atoi(<variable>) - for string to integer conversion. It returns two values: converted integer and error(if any).
 
 - Go is a statically/strictly typed language that also often feels dynamically typed sometimes.
 
