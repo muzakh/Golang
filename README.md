@@ -140,3 +140,10 @@ variableName = "Zohaib"
 ### Correct way:
 Const variableName String = "Zohaib"
 
+# Types of Operators:
+- Comparison Operators: ==, !=, <, <=, >, >=
+- Arithmetc Operators: +, -, *, /, %, ++, --
+- Assignment Operators: =, +=, -=, *=, %=, /=
+- Bitwise Operators: &, |, <<, >>, (carrot sign)
+- Logical Operators: && , ||, !
+
