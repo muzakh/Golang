@@ -148,7 +148,7 @@ Const variableName String = "Zohaib"
 - Logical Operators: && , ||, !
 
 
-# If-else statement:
+# If-else AND else if statement:
 - The else keyword must start right after if ends otherwise the code throws syntaxt error:
 "syntax error: unexpected else, expecting }"
 
