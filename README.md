@@ -144,6 +144,11 @@ Const variableName String = "Zohaib"
 - Comparison Operators: ==, !=, <, <=, >, >=
 - Arithmetc Operators: +, -, *, /, %, ++, --
 - Assignment Operators: =, +=, -=, *=, %=, /=
-- Bitwise Operators: &, |, <<, >>, (carrot sign)
+- Bitwise Operators: &, |, << (left shift operator), >> (right shift operator), (carrot sign - XOR). They operate on every bit level of the given operands.
 - Logical Operators: && , ||, !
+
+
+# If-else statement:
+- The else keyword must start right after if ends otherwise the code throws syntaxt error:
+"syntax error: unexpected else, expecting }"
 
